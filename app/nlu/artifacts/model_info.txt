@@ -1,0 +1,30 @@
+=== Параметры модели ===
+LogisticRegression(C=5.0, class_weight='balanced', max_iter=2000)
+
+=== Классы (интенты) и intercept (смещение) ===
+add_medication       intercept=+0.730
+book_appointment     intercept=-0.177
+cancel               intercept=-0.572
+cancel_appointment   intercept=+0.092
+confirm              intercept=-0.734
+confirm_intake       intercept=-0.756
+deny                 intercept=-0.538
+describe_symptom     intercept=+1.691
+greet                intercept=-0.252
+help                 intercept=+0.313
+request_certificate  intercept=-0.102
+show_schedule        intercept=+0.305
+
+=== Норма вектора весов по каждому классу (величина сигнала) ===
+add_medication       ||w||=9.507
+book_appointment     ||w||=9.132
+cancel               ||w||=8.903
+cancel_appointment   ||w||=9.586
+confirm              ||w||=9.372
+confirm_intake       ||w||=9.548
+deny                 ||w||=9.402
+describe_symptom     ||w||=9.417
+greet                ||w||=9.559
+help                 ||w||=9.614
+request_certificate  ||w||=9.328
+show_schedule        ||w||=9.497

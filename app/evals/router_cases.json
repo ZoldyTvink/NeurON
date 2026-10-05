@@ -1,0 +1,275 @@
+[
+  {
+    "message": "От таблеток стала сыпь, дозу уменьшить?",
+    "expected": [
+      "question"
+    ]
+  },
+  {
+    "message": "Где посмотреть назначения после приёма?",
+    "expected": [
+      "plans"
+    ]
+  },
+  {
+    "message": "Можете заказать две упаковки того, что врач назначил?",
+    "expected": [
+      "pharmacy"
+    ]
+  },
+  {
+    "message": "Выкупил всё из списка врача. Хочу чтобы телефон напоминал о приёме",
+    "expected": [
+      "purchased"
+    ]
+  },
+  {
+    "message": "На вечер это можно поставить?",
+    "expected": [
+      "clarify"
+    ]
+  },
+  {
+    "message": "Не нужно ничего менять, спасибо",
+    "expected": [
+      "closing"
+    ]
+  },
+  {
+    "message": "Впишите мне йогу по понедельникам",
+    "expected": [
+      "personal"
+    ]
+  },
+  {
+    "message": "мне плохо",
+    "expected": [
+      "wellbeing"
+    ]
+  },
+  {
+    "message": "не надо меня записывать, покажи какие лекарства мне назначили",
+    "expected": [
+      "plans"
+    ]
+  },
+  {
+    "message": "лекарства уже куплены, хочу добавить курс в календарь",
+    "expected": [
+      "purchased"
+    ]
+  },
+  {
+    "message": "боль в груди очень сильная, не могу нормально вдохнуть",
+    "expected": [
+      "emergency"
+    ]
+  },
+  {
+    "message": "сильной боли в груди нет, просто немного устал и хочу к терапевту",
+    "expected": [
+      "booking",
+      "wellbeing"
+    ]
+  },
+  {
+    "message": "не хочу покупать, лекарства уже есть, нужны напоминания",
+    "expected": [
+      "purchased"
+    ]
+  },
+  {
+    "message": "а на завтра можно?",
+    "expected": [
+      "clarify"
+    ]
+  },
+  {
+    "message": "расскажи рецепт борща",
+    "expected": [
+      "clarify"
+    ]
+  },
+  {
+    "message": "посмотри на какое время я записан, ничего не отменяй",
+    "expected": [
+      "booking"
+    ]
+  },
+  {
+    "message": "запеши к теропевту",
+    "expected": [
+      "booking"
+    ]
+  },
+  {
+    "message": "Спасибо, больше ничего не нужно",
+    "expected": [
+      "closing"
+    ]
+  },
+  {
+    "message": "Пока!",
+    "expected": [
+      "closing"
+    ]
+  },
+  {
+    "message": "Спасибо! А где заказать назначенные препараты?",
+    "expected": [
+      "pharmacy"
+    ]
+  },
+  {
+    "message": "да",
+    "expected": [
+      "clarify"
+    ]
+  },
+  {
+    "message": "не это",
+    "expected": [
+      "clarify"
+    ],
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Нажмите «Выбрать время приёма», чтобы записаться к врачу."
+      }
+    ]
+  },
+  {
+    "message": "да",
+    "expected": [
+      "booking"
+    ],
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу попасть к врачу"
+      },
+      {
+        "role": "assistant",
+        "content": "Хотите открыть выбор времени приёма?"
+      }
+    ]
+  },
+  {
+    "message": "да",
+    "expected": [
+      "personal"
+    ],
+    "history": [
+      {
+        "role": "user",
+        "content": "Мне нужно напоминание о завтраке"
+      },
+      {
+        "role": "assistant",
+        "content": "Хотите добавить своё событие в календарь?"
+      }
+    ]
+  },
+  {
+    "message": "да",
+    "expected": [
+      "clarify"
+    ],
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Хотите записаться к врачу, открыть назначения или добавить событие?"
+      }
+    ]
+  },
+  {
+    "message": "а на завтра?",
+    "expected": [
+      "booking"
+    ],
+    "history": [
+      {
+        "role": "user",
+        "content": "Хочу записаться к врачу"
+      },
+      {
+        "role": "assistant",
+        "content": "Нажмите «Выбрать время приёма», чтобы записаться к врачу."
+      }
+    ]
+  },
+  {
+    "message": "а на завтра?",
+    "expected": [
+      "personal"
+    ],
+    "history": [
+      {
+        "role": "user",
+        "content": "Добавь напоминание о завтраке"
+      },
+      {
+        "role": "assistant",
+        "content": "Нажмите «Добавить своё событие» и укажите дату и время."
+      }
+    ]
+  },
+  {
+    "message": "нет, лучше покажи назначения",
+    "expected": [
+      "plans"
+    ],
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Хотите записаться к врачу?"
+      }
+    ]
+  },
+  {
+    "message": "Отменять ничего не надо, хочу увидеть свою запись",
+    "expected": [
+      "booking"
+    ],
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Вы можете открыть свои записи и отменить ненужную."
+      }
+    ]
+  },
+  {
+    "message": "Спасибо, но мне по-прежнему нехорошо",
+    "expected": [
+      "wellbeing"
+    ]
+  },
+  {
+    "message": "нет",
+    "expected": [
+      "clarify"
+    ],
+    "history": [
+      {
+        "role": "assistant",
+        "content": "Хотите открыть назначения?"
+      }
+    ]
+  },
+  {
+    "message": "Не покупка, я уже всё купил, нужны напоминания",
+    "expected": [
+      "purchased"
+    ],
+    "history": [
+      {
+        "role": "user",
+        "content": "Где купить лекарства?"
+      },
+      {
+        "role": "assistant",
+        "content": "Откройте назначения и корзину ЕАПТЕКИ."
+      }
+    ]
+  }
+]

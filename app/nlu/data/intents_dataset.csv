@@ -1,0 +1,269 @@
+text,intent
+верно,confirm
+нужно пить Лозартан по расписанию,add_medication
+тошнит с утра,describe_symptom
+"нет, отменить это",deny
+неа,deny
+прекрати,cancel
+назад,cancel
+хочу отменить приём,cancel_appointment
+хочу справку от врача,request_certificate
+уберите мою запись,cancel_appointment
+забудь про это,cancel
+нет не так,deny
+я передумала,cancel
+"добрый вечер, бот",greet
+"мне назначили Эналаприл, добавь напоминание",add_medication
+запишите меня к кардиолог,book_appointment
+добавь напоминание о приёме лекарства,add_medication
+угу,confirm
+выпил таблетку,confirm_intake
+что ты можешь сделать,help
+покажи все мои напоминания о лекарствах,show_schedule
+снимите меня с записи,cancel_appointment
+приняла лекарство,confirm_intake
+температура и ломит тело,describe_symptom
+таблетку выпил,confirm_intake
+заложило ухо и не слышу,describe_symptom
+добавь лекарство Цитрамон,add_medication
+принято,confirm_intake
+мне нужно принимать Эналаприл,add_medication
+отменить,cancel
+неверно,deny
+окей,confirm
+не то,deny
+именно это и нужно,confirm
+объясни свои возможности,help
+"супер, согласен",confirm
+здравствуй,greet
+хочу отменить запись к врачу,cancel_appointment
+поднялась температура,describe_symptom
+"да, записывайте",confirm
+ага,confirm
+удалите мою запись к врачу,cancel_appointment
+выйти,cancel
+покажи мои записи к врачу,show_schedule
+живот болит уже два дня,describe_symptom
+отмени это,cancel
+да,confirm
+"отметьте, что я принял лекарство",confirm_intake
+"нет, не согласен",deny
+изжога после каждого приёма пищи,describe_symptom
+"запись больше не нужна, отмените",cancel_appointment
+"здравствуйте, подскажите",greet
+кожа чешется и покраснела,describe_symptom
+help,help
+препарат принят,confirm_intake
+стоп,cancel
+хэллоу,greet
+нет,deny
+"да, всё правильно",confirm
+нужно пить Омепразол по расписанию,add_medication
+какие лекарства я сейчас принимаю,show_schedule
+мне нужно к дерматолог,book_appointment
+добрый день,greet
+"подскажи, с чего начать",help
+болит горло и кашель,describe_symptom
+с чем ты можешь помочь,help
+мне нужен гастроэнтеролог,book_appointment
+мне нужно принимать Каптоприл,add_medication
+отмените мою запись,cancel_appointment
+нужно пить Аспирин по расписанию,add_medication
+мои текущие лекарства,show_schedule
+приветик,greet
+отмените визит к врачу,cancel_appointment
+как тобой пользоваться,help
+нужно пить Супрастин по расписанию,add_medication
+отметь что принял,confirm_intake
+хочу получить справку,request_certificate
+хочу заказать медицинскую справку,request_certificate
+как записаться к эндокринолог,book_appointment
+не подходит,deny
+не продолжай,cancel
+"мне назначили Анальгин, добавь напоминание",add_medication
+закрой это,cancel
+покажи список лекарств,show_schedule
+что по плану на сегодня с лекарствами,show_schedule
+дозу принял,confirm_intake
+нужна медицинская справка,request_certificate
+привет,greet
+"мне назначили Каптоприл, добавь напоминание",add_medication
+отмените приём,cancel_appointment
+мне нужно к офтальмолог,book_appointment
+запишите меня на приём,book_appointment
+как записаться к терапевт,book_appointment
+принял вовремя,confirm_intake
+здравствуйте!,greet
+мигрень уже третий день,describe_symptom
+доброго времени суток,greet
+нужно пить Анальгин по расписанию,add_medication
+хочу на приём к гастроэнтеролог,book_appointment
+"нет, измените",deny
+"мне назначили Ношпа, добавь напоминание",add_medication
+выведи расписание таблеток,show_schedule
+"здравствуй, бот",greet
+у меня болит голова,describe_symptom
+"нет, другое",deny
+мне нужно принимать Метформин,add_medication
+хорошо,confirm
+подходит,confirm
+всё верно,confirm
+алло,greet
+добавь лекарство Лозартан,add_medication
+хочу на приём к терапевт,book_appointment
+хочу записаться 15 октября,book_appointment
+хочу попасть на приём к невролог,book_appointment
+хочу справку в бассейн,request_certificate
+"уберите мою запись к врачу, пожалуйста",cancel_appointment
+хочу записаться в среду,book_appointment
+"мне назначили Парацетамол, добавь напоминание",add_medication
+отказываюсь,deny
+давление скачет,describe_symptom
+режет глаза на свету,describe_symptom
+не угадал,deny
+напомни пить Аспирин,add_medication
+добрый вечер,greet
+что ты за сервис,help
+мои напоминания,show_schedule
+мне нужно принимать Ношпа,add_medication
+какие услуги доступны,help
+перестань,cancel
+подскажи что можно сделать,help
+нужна справка,request_certificate
+именно так,confirm
+только что принял лекарство,confirm_intake
+"нет, неправильно",deny
+"нет, не нужно",deny
+нужна запись к лор,book_appointment
+какие у меня лекарства по графику,show_schedule
+что мне нужно сегодня принять,show_schedule
+одышка при ходьбе,describe_symptom
+что я принимаю,show_schedule
+"я не смогу прийти, отмените запись",cancel_appointment
+нужна помощь,help
+это не то,deny
+неправильно,deny
+хватит,cancel
+мои таблетки,show_schedule
+не согласен,deny
+мне нужен невролог,book_appointment
+напомни пить Цитрамон,add_medication
+нужна запись к дерматолог,book_appointment
+болит сердце,describe_symptom
+остановить диалог,cancel
+забудь,cancel
+как записаться к кардиолог,book_appointment
+как записаться к гастроэнтеролог,book_appointment
+"не понимаю что делать, помоги",help
+остановись,cancel
+мне нужно к эндокринолог,book_appointment
+"мне назначили Аспирин, добавь напоминание",add_medication
+"да, подтверждаю",confirm
+я принял дозу,confirm_intake
+"не верно, попробуй ещё",deny
+расскажи что умеешь,help
+отмена записи к врачу,cancel_appointment
+ок,confirm
+не хочу,cancel
+покажи мой график приёма,show_schedule
+нужна запись к кардиолог,book_appointment
+все так,confirm
+хай,greet
+"нет, это ошибка",deny
+добавь лекарство Аспирин,add_medication
+мне нужно к лор,book_appointment
+можно получить справку онлайн,request_certificate
+можно записаться на приём,book_appointment
+какие у тебя функции,help
+мне нужно к невролог,book_appointment
+напомни пить Омепразол,add_medication
+добавь лекарство Нурофен,add_medication
+подтверждаю,confirm
+хочу записаться к врачу,book_appointment
+добавь мне лекарство,add_medication
+расписание приёма лекарств,show_schedule
+напомни мне принимать лекарство,add_medication
+нужна запись к офтальмолог,book_appointment
+покажи мои лекарства,show_schedule
+покажи мой список назначений,show_schedule
+напомни пить Парацетамол,add_medication
+нужно пить Но-шпа по расписанию,add_medication
+мне нужно принимать Анальгин,add_medication
+отмена,cancel
+нужна запись к терапевт,book_appointment
+отметь приём лекарства,confirm_intake
+мне нужно принимать Омепразол,add_medication
+плохо вижу в последнее время,describe_symptom
+принял лекарство,confirm_intake
+мне нужен кардиолог,book_appointment
+приветствую,greet
+"мне назначили Но-шпа, добавь напоминание",add_medication
+здравствуйте,greet
+напомни пить Каптоприл,add_medication
+запись к врачу,book_appointment
+как записаться к невролог,book_appointment
+расскажи о своих возможностях,help
+добавь лекарство Омепразол,add_medication
+добрый день!,greet
+"да, верно",confirm
+не надо,cancel
+согласен,confirm
+оформите мне справку,request_certificate
+болит ухо,describe_symptom
+что ты за бот,help
+"готово, принял",confirm_intake
+напомни пить Амоксициллин,add_medication
+оформите справку о состоянии здоровья,request_certificate
+уже принял,confirm_intake
+хочу на приём к эндокринолог,book_appointment
+мои текущие назначения,show_schedule
+напомни пить Эналаприл,add_medication
+совсем не то,deny
+"привет, мне нужна помощь",greet
+болит живот после еды,describe_symptom
+покажи меню,help
+добавь лекарство Амоксициллин,add_medication
+кружится голова,describe_symptom
+хочу попасть на приём к терапевт,book_appointment
+помощь,help
+передумал,cancel
+что мне назначено,show_schedule
+добавь лекарство Но-шпа,add_medication
+напомни что у меня по лекарствам,show_schedule
+хочу начать,greet
+насморк и кашель третий день,describe_symptom
+больше не нужно,cancel
+"мне назначили Метформин, добавь напоминание",add_medication
+запишите меня к лор,book_appointment
+выпила таблетку,confirm_intake
+доброе утро,greet
+как записаться к офтальмолог,book_appointment
+как записаться к лор,book_appointment
+что ты умеешь,help
+как записаться к дерматолог,book_appointment
+какие есть команды,help
+нужна справка для учёбы,request_certificate
+лекарство выпито,confirm_intake
+какое у меня расписание приёма,show_schedule
+мне нужно принимать Цитрамон,add_medication
+хочу попасть на приём к лор,book_appointment
+дайте справку,request_certificate
+"выпил, как назначено",confirm_intake
+напомни пить Ибупрофен,add_medication
+нужна справка для работы,request_certificate
+хочу перенести и отменить старую запись,cancel_appointment
+хочу на приём к лор,book_appointment
+я выпил таблетки,confirm_intake
+добавь лекарство Эналаприл,add_medication
+дай список функций,help
+точно,confirm
+уже выпила таблетки,confirm_intake
+мне нужен офтальмолог,book_appointment
+"не хочу идти к врачу, отмените",cancel_appointment
+запишите меня к терапевт,book_appointment
+как оформить справку,request_certificate
+появилась сыпь на коже,describe_symptom
+мне нужна справка 086,request_certificate
+хочу попасть на приём к гастроэнтеролог,book_appointment
+привет!,greet
+запишите меня к дерматолог,book_appointment
