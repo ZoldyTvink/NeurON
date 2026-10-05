@@ -1,5 +1,3 @@
-"""Meditron: patient workspace."""
-
 import logging
 import os
 from contextlib import asynccontextmanager

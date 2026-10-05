@@ -1,5 +1,3 @@
-"""Top-level dialogue manager: NLU -> routing -> flow dispatch -> persisted state."""
-
 from sqlalchemy.orm import Session
 
 from app.db.models import SessionLocal

@@ -1,5 +1,3 @@
-"""Product acceptance tests. External inference and push delivery are mocked explicitly."""
-
 import json
 from datetime import timedelta, timezone
 from zoneinfo import ZoneInfo

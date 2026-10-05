@@ -1,10 +1,3 @@
-"""Trains the intent classification head on top of frozen rubert-tiny2 embeddings.
-
-Usage: python -m app.nlu.train_intent_model
-Writes artifacts/intent_head.joblib + artifacts/labels.joblib, and prints held-out
-accuracy so regressions are visible before shipping a new model.
-"""
-
 import csv
 
 import joblib

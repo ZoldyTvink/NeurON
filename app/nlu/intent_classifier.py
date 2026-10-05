@@ -1,15 +1,3 @@
-"""Intent classification: pretrained Russian sentence embeddings + a small trained head.
-
-We don't fine-tune a full LLM: a frozen pretrained encoder (cointegrated/rubert-tiny2,
-an openly licensed, Sber-affiliated Russian distilled BERT) turns text into embeddings,
-and a lightweight LogisticRegression head is trained on our own synthetic dataset
-(app/nlu/data/intents_dataset.csv). This keeps the model small, fast on CPU, and cheap
-to retrain, while still being a real trained neural pipeline (not a paid LLM API).
-
-If the embedding model can't be downloaded (offline demo), we fall back to a
-keyword/TF-IDF classifier so the service keeps working, at reduced accuracy.
-"""
-
 from pathlib import Path
 
 import joblib

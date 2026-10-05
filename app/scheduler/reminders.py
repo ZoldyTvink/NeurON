@@ -1,11 +1,3 @@
-"""Background job that turns Medication schedules into due Notifications.
-
-Runs every minute, matches the current HH:MM against each active medication's
-configured times, and (idempotently, once per day per slot) creates a
-MedicationLog + a Notification. A real deployment would push the Notification
-to the Telegram bot; here it's just queued for GET /notifications/due to pick up.
-"""
-
 from datetime import datetime
 
 from apscheduler.schedulers.background import BackgroundScheduler

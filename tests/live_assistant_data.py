@@ -1,7 +1,3 @@
-"""Opt-in local-model smoke test, using only an isolated synthetic patient database.
-Run: .venv/bin/python tests/live_assistant_data.py
-"""
-
 import os
 import sys
 import tempfile

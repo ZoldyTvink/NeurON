@@ -1,13 +1,3 @@
-"""Rule-based slot extraction (NER): dates, times, specialties, drugs, dosage.
-
-A dictionary/regex approach is used here instead of a trained NER model because it is
-100% deterministic and auditable for a medical-adjacent scenario (no hallucinated
-entities), and because labelled Russian NER data for this exact domain is not
-available off-the-shelf. This module is the designated extension point: swap
-`extract_specialty`/`extract_drug_name` for a trained model (e.g. fine-tuned on
-RuMedBench/RuMedSymptomRec) without touching the dialogue flows.
-"""
-
 import re
 from datetime import datetime
 from typing import Optional

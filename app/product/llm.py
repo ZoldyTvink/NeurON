@@ -1,5 +1,3 @@
-"""Explicit local/cloud model selection; no silent fallback between providers."""
-
 import json
 import logging
 import os

@@ -1,5 +1,3 @@
-"""Session persistence + small dataclass wrapper around a patient's dialogue state."""
-
 from dataclasses import dataclass, field
 
 from sqlalchemy.orm import Session

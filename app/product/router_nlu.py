@@ -1,5 +1,3 @@
-"""Local semantic routing and concise, context-aware chat replies."""
-
 import json
 import logging
 import os

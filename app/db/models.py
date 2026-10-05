@@ -1,5 +1,3 @@
-"""SQLAlchemy models for the mock healthcare backend (synthetic data only, no real PII)."""
-
 import json
 import os
 from datetime import datetime

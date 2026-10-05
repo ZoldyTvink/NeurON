@@ -1,5 +1,3 @@
-"""Opt-in local GigaChat check using synthetic conversation only, no patient DB."""
-
 import os
 import sys
 from pathlib import Path

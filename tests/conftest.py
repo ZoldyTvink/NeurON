@@ -1,5 +1,3 @@
-"""Pytest fixtures: isolate every test in its own temp SQLite DB with fresh seed data."""
-
 import os
 import tempfile
 

@@ -1,5 +1,3 @@
-"""Deterministic scheduling independent of LLM and pharmacy availability."""
-
 import json
 from datetime import date, datetime, timedelta, timezone
 from zoneinfo import ZoneInfo

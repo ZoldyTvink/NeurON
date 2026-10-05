@@ -1,5 +1,3 @@
-"""Query helpers shared by the dialogue flows (keeps SQL/ORM out of FSM logic)."""
-
 from datetime import datetime, timedelta
 
 from sqlalchemy import and_

@@ -1,9 +1,3 @@
-"""Seeds the mock DB with synthetic doctors and bookable slots.
-
-All data here is fictional (no real patients, doctors or PII) and exists only
-to make the prototype demonstrable end-to-end.
-"""
-
 import random
 from datetime import datetime, timedelta
 

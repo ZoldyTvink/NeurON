@@ -1,5 +1,3 @@
-"""End-to-end test of the 'manage medication intake' dialogue flow."""
-
 from app.db.models import Medication, SessionLocal
 from app.dialogue.manager import handle_message
 

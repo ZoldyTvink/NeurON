@@ -1,8 +1,3 @@
-"""Read-only patient tools and conservative fast paths for the chat.
-
-The authenticated account is supplied by the API, never by a model argument.
-"""
-
 import re
 from datetime import date, datetime, timedelta, timezone
 from typing import Literal

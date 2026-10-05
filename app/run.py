@@ -1,5 +1,3 @@
-"""Local launcher: load the repository's .env before importing the application."""
-
 from pathlib import Path
 
 import uvicorn

@@ -1,9 +1,3 @@
-"""Opt-in browser check against the real local model, using a disposable database.
-
-Run explicitly: .venv/bin/python tests/live_chat_smoke.py
-Requires Ollama, configured .env and Playwright/Chromium. No external services are mocked.
-"""
-
 import os
 import socket
 import subprocess

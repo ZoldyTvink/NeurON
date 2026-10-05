@@ -1,9 +1,3 @@
-"""FSM for the 'book an appointment' scenario.
-
-States: ask_specialty -> ask_date -> ask_time -> confirm -> (done)
-Slots collected: specialty, date (datetime), time (HH:MM), slot_id, doctor_name
-"""
-
 from sqlalchemy.orm import Session
 
 from app.db import queries

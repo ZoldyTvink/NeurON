@@ -1,5 +1,3 @@
-"""NLU quality checks: intent classifier accuracy + rule-based entity extraction."""
-
 from app.nlu.entities import (
     extract_all_times,
     extract_date,

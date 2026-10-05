@@ -1,8 +1,3 @@
-"""Manual REPL for exercising the dialogue manager without starting the HTTP server.
-
-Usage: python -m app.cli_client [user_id]
-"""
-
 import sys
 
 from app.db.models import SessionLocal, init_db

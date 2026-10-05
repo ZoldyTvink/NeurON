@@ -1,9 +1,3 @@
-"""FSM for the 'manage medication intake' scenario.
-
-States: ask_name -> ask_dosage -> ask_time -> confirm -> (done)
-Slots collected: drug, dosage, times (list of HH:MM)
-"""
-
 from datetime import datetime
 
 from sqlalchemy.orm import Session

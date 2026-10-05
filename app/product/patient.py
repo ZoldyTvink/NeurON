@@ -1,5 +1,3 @@
-"""Patient workspace: explicit demo import, course progress and personal documents."""
-
 import json
 from datetime import date, datetime, timedelta, timezone
 from typing import Literal

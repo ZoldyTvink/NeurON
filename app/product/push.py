@@ -1,5 +1,3 @@
-"""Opt-in Web Push, persisted retries, and revocation of expired subscriptions."""
-
 import base64
 import json
 import os

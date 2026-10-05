@@ -1,5 +1,3 @@
-"""GigaChat cloud transport. Explicit opt-in; credentials never reach the browser."""
-
 import hashlib
 import math
 import os

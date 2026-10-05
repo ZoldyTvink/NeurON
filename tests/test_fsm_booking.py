@@ -1,5 +1,3 @@
-"""End-to-end test of the 'book an appointment' dialogue flow."""
-
 import re
 
 from app.db.models import Appointment, Doctor, DoctorSlot, SessionLocal

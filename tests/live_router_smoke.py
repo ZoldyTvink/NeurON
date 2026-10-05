@@ -1,5 +1,3 @@
-"""Opt-in local NLU evaluation. Uses synthetic text only, no database or cloud."""
-
 import hashlib
 import json
 import math

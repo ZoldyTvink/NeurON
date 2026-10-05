@@ -1,5 +1,3 @@
-"""Check the real model with a synthetic message, without touching the database."""
-
 import json
 import time
 from datetime import datetime

@@ -1,11 +1,3 @@
-"""Builds a synthetic labelled dataset for intent classification.
-
-No public dataset exists for Russian "book an appointment / manage medication"
-chat intents, so examples are generated from hand-written templates + the entity
-dictionaries (specialties, drugs, times) to get lexical variety cheaply. Run this
-module directly to (re)write app/nlu/data/intents_dataset.csv.
-"""
-
 import csv
 import itertools
 import random

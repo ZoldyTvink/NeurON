@@ -1,5 +1,3 @@
-"""Patient redesign acceptance test, using a disposable database and no real inference."""
-
 import os
 import socket
 import subprocess

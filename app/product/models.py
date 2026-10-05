@@ -1,8 +1,3 @@
-"""Additive schema: existing prototype tables and data are retained.
-
-All timestamps in these tables are naive UTC; local dates belong to series.timezone.
-"""
-
 from datetime import datetime, timezone
 
 from sqlalchemy import (
